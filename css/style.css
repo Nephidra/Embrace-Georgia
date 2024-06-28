@@ -53,8 +53,8 @@
 
 
 .footer{
-    width: 1349px;
-    height: 372px;
+    width: 100%;
+    height: 250px;
     background-color: black;
     margin-top: 30px;
     display: flex;
@@ -71,7 +71,6 @@
     font-family: Helvetica;
     font-size: 26px;
     font-weight: 700;
-    padding-bottom: 20px;
 }
 
 .p3{
@@ -79,6 +78,7 @@
     font-size: 17px;
     font-weight: 700;
     width: 295px;
+    margin-top: 20px;
 }
 
 .span4{
@@ -113,16 +113,4 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
-}
-
-.contacts{
-    display: flex;
-    justify-content: space-between;
-    width: 1150px;
-    margin-left: 90px;
-    margin-top: 50px;
-}
-
-.typo{
-    color: #99999A;
 }
