@@ -190,7 +190,10 @@
 .banner .content h2{
     font-size: 3em;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
+    .saqartvelo{
+        margin-top: -150px;
+    }
     .banner .slider{
         width: 160px;
         height: 200px;
@@ -218,7 +221,10 @@
         padding: 0 30px;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+    .saqartvelo{
+        margin-bottom: -50px;
+    }
     .banner .slider{
         width: 100px;
         height: 150px;
@@ -231,6 +237,13 @@
     }
     .banner .content h1{
         font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .saqartvelo{
+        margin-top: -90px;
+        margin-bottom: -400px;
     }
 }
 
@@ -280,4 +293,12 @@ body{
 header nav{
     margin-right: 50px;
     margin-top: 15px;
+}
+
+.backg{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
 }
