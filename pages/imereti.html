@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>იმერეთი</title>
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(../images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <a href="../index.html" class="mp"><i class="fa-solid fa-arrow-left"></i></i></a>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><a href="were_saxl.html"><img src="../images/weretelis_saxlmuzeomi.jpg" alt=""></a></div>
+            <div class="item" style="--position: 2"><a href="tama_xid.html"><img src="../images/tamaris_xidi.jpg" alt=""></a></div>
+            <div class="item" style="--position: 3"><a href="vardzia.html"><img src="../images/vardzia.jpg" alt=""></a></div>
+            <div class="item" style="--position: 4"><a href="mowameta.html"><img src="../images/mowameta.jpg" alt=""></a></div>
+            <div class="item" style="--position: 5"><a href="sataplia.html"><img src="../images/sataplia.jpg" alt=""></a></div>
+            <div class="item" style="--position: 6"><a href="oka_kanio.html"><img src="../images/okaceskanioni.jpg" alt=""></a></div>
+            <div class="item" style="--position: 7"><a href="oka_chan.html"><img src="../images/okaceschanchqeri.jpg" alt=""></a></div>
+            <div class="item" style="--position: 8"><a href="bag_taz.html"><img src="../images/bagratistazari.jpg" alt=""></a></div>
+            <div class="item" style="--position: 9"><a href="kac_sv.html"><img src="../images/kacxissveti.jpg" alt=""></a></div>
+            <div class="item" style="--position: 10"><a href="wm_ek_m.html"><img src="../images/wmindaekaterinesmonasteri.jpg" alt=""></a></div>
+        </div>
+        <div class="content">
+            <h1>
+                იმოგზაურე იმერეთში
+            </h1>
+            <div class="author">
+                <h2>იმერეთი</h2>
+                <p>
+                    აირჩიეთ თქვენთვის სასურველი ადგილი რომ იმოგზაუროთ
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
     
 </body>
 </html>
