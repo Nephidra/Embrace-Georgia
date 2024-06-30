@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embrace Georgia</title>
+    <title>აირჩიე საქართველო</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="nav">
         <img class="logo" src="images/Georgia_flag.png">
-			<nav class="navigation">
+		<nav>
+			<details>
+				<summary>
+				<i class="fa-regular fa-user"></i>
+				</summary>
 				<ul>
-					<li class="header-item main-color" >
-						<a href="index.html">ქართული</a>
-					</li>
-					<li class="header-item" >
-						<a>English</a>
-					</li>
+					<a href="pages/registration.html" class="atag"><li>აქაუნთსი შესვლა/Sing in</li></a>	
+					<details>
+						<summary>
+							<li>ენის შეცვლა/Change language</li>
+						</summary>
+						<ul>
+							<li>ქართული</li>
+							<li><a href="english.html" class="atag">English</a></li>
+						</ul>
+					</details>
 				</ul>
-			</nav>
+			</details>
+		</nav>
+
     </header>
     <main>
         <section class="saqartvelo">
@@ -183,10 +194,17 @@
 
         </section>
     </main>
-
-
     <footer class="footer">
-
+			<div class="footer2">
+				<span class="span3">Embrace Georgia</span>
+				<p class="p3">We are company who helps tourists to travel in Georgia</p>
+			</div>
+			<div class="info1">
+				<span class="span4">Contact information</span>
+				<p class="p4">embracegeo@gmail.com</p>
+				<p class="p4">+ 995 599 99 99 99</p>
+				<p class="p4">x street</p>
+			</div>
     </footer>
 </body>
 </html>
